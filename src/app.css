@@ -1,0 +1,15 @@
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(24, 24, 24, 0.756) hsl(218, 23%, 23%);
+}
+
+.scroll-container {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(34, 32, 32, 0.793) #2d3748;
+}
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}

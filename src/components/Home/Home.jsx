@@ -24,7 +24,7 @@ function Home(props) {
           </p>
           <button className=" mt-2 ">
             <Link
-              to="https://drive.google.com/uc?export=download&id=14kfg982Z837l0kC-yaPau1zbz0cV2_Y1"
+              to="https://drive.google.com/uc?export=download&id=1h-oXpiNBdfXSb1dj25G0UqOW-4bcpp6y"
               className=" text-xl text-center px-8 py-2 duration-200 max-w-none hover:text-white ring-2  hover:ring-blue-300 rounded-xl font-extrabold hover:bg-gradient-to-r from-indigo-600 to-blue-400 "
             >
               Resume

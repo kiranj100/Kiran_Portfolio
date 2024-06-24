@@ -7,8 +7,7 @@
     @apply bg-white border-none ring-1 rounded-md hover:ring-white;
   }
 }
-@layer base {
-  body {
-    @apply bg-slate-900;
-  }
+
+body {
+  @apply bg-slate-900;
 }

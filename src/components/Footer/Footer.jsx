@@ -32,7 +32,7 @@ function Footer() {
         <p className="tracking-widest ">
           &copy; {new Date().getFullYear()} Kiran Jojan
         </p>
-        <p className="tracking-widest ">All rights reserved </p>
+        <p className="tracking-widest ">All rights reserved.</p>
       </div>
     </footer>
   );

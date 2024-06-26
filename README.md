@@ -1,8 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# https://kiranjojan100.netlify.app/
+Packages Required
+1) React Icons  (npm i react-icons)
+2) React Router (npm i react-router-dom)
+3) Scroll Lock (npm i  scroll-lock)
+4) React Toastify (npm i --save react-toastify)
+5) EmailJs (npm i emailjs)

@@ -4,7 +4,6 @@ import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 import SpinnerLoader from "../components/Spinner/SpinnerLoader";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function Layout() {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,7 +31,6 @@ function Layout() {
             </header>
             <main className="flex flex-1">
               <Outlet />
-              <SpeedInsights />
               <ToastContainer />
             </main>
             <footer className="bg-slate-800 h-28 w-full">

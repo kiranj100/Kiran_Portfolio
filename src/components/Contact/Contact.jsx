@@ -19,9 +19,9 @@ function Contact() {
 
   // Function to send email using EmailJS
   const sendEmail = (values, { resetForm }) => {
-    const serviceID = process.env.REACT_APP_SERVICE_ID;
-    const templateID = process.env.REACT_APP_TEMPLATE_KEY;
-    const publicID = process.env.REACT_APP_PUBLIC_KEY;
+    const serviceID = "service_kd9bxjp";
+    const templateID = "template_nyejv2n";
+    const publicID = "Ijq68cTwfeSjj0_bx";
 
     emailjs.sendForm(serviceID, templateID, formRef.current, publicID).then(
       () => {

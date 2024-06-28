@@ -1,13 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-  .icons_border {
-    @apply bg-white border-none ring-1 rounded-md hover:ring-white;
-  }
-}
-
-body {
-  @apply bg-slate-900;
-}

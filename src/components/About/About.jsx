@@ -35,7 +35,7 @@ function About() {
             <img
               src={html5}
               alt="HTML"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -45,7 +45,7 @@ function About() {
             <img
               src={css}
               alt="CSS"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -55,7 +55,7 @@ function About() {
             <img
               src={javascript}
               alt="JavaScript"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -65,7 +65,7 @@ function About() {
             <img
               src={jira}
               alt="Jira"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -75,7 +75,7 @@ function About() {
             <img
               src={tailwind}
               alt="Tailwind"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -85,7 +85,7 @@ function About() {
             <img
               src={git}
               alt="Git"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -95,7 +95,7 @@ function About() {
             <img
               src={nodejs}
               alt="NodeJs"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -105,7 +105,7 @@ function About() {
             <img
               src={python}
               alt="Python"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -115,7 +115,7 @@ function About() {
             <img
               src={mysql}
               alt="MYSQL"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -125,7 +125,7 @@ function About() {
             <img
               src={react_1}
               alt="ReactJS"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -135,7 +135,7 @@ function About() {
             <img
               src={vs}
               alt="VSCode"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -145,7 +145,7 @@ function About() {
             <img
               src={github}
               alt="GitHub"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -155,7 +155,7 @@ function About() {
             <img
               src={mongodb}
               alt="MongoDB"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -165,7 +165,7 @@ function About() {
             <img
               src={ubuntu}
               alt="Ubuntu"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -175,7 +175,7 @@ function About() {
             <img
               src={sass}
               alt="SCSS"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>
@@ -185,7 +185,7 @@ function About() {
             <img
               src={responsive}
               alt="Responsive"
-              className="icons_border sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />
           </div>

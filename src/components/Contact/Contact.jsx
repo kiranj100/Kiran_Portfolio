@@ -17,15 +17,14 @@ const validationSchema = yup.object().shape({
 function Contact() {
   const formRef = useRef();
 
+  const serviceID = process.env.SERVICE_ID;
+  const templateID = process.env.TEMPLATE_KEY;
+  const publicID = process.env.PUBLIC_KEY;
+
   // Function to send email using EmailJS
   const sendEmail = (values, { resetForm }) => {
     emailjs
-      .sendForm(
-        "service_kd9bxjp",
-        "template_nyejv2n",
-        formRef.current,
-        "Ijq68cTwfeSjj0_bx"
-      )
+      .sendForm(`${serviceID}`, `${templateID}`, formRef.current, `${publicID}`)
       .then(
         () => {
           toast.success("Message Sent Successfully 😊");

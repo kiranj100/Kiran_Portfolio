@@ -12,7 +12,7 @@ function Layout() {
     // Simulate a network request or some loading process
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1300); // Adjust the timeout duration as needed
+    }, 1000); // Adjust the timeout duration as needed
 
     return () => clearTimeout(timer);
   }, []);

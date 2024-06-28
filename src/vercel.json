@@ -1,7 +1,3 @@
 {
-  "router": [
-    { "source": "/", "destination": "/" },
-    { "source": "/about", "destination": "/about" },
-    { "source": "/contact", "destination": "/contact" }
-  ]
+  "redirects": [{ "source": "/(.*)", "destination": "/" }]
 }

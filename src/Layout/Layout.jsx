@@ -12,14 +12,14 @@ function Layout() {
     // Simulate a network request or some loading process
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 500); // Adjust the timeout duration as needed
+    }, 900); // Adjust the timeout duration as needed
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <>
-      <div className="bg-black">
+      <div className="bg-black animate-fadeIn">
         {isLoading ? (
           <SpinnerLoader />
         ) : (

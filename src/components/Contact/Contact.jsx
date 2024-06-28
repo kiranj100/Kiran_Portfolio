@@ -48,13 +48,13 @@ function Contact() {
         >
           {({ isSubmitting }) => (
             <Form ref={formRef}>
-              <div className="">
+              <div className="animate__animated animate__bounceInLeft">
                 <p className="w-full text-3xl font-bold text-white text-center">
                   Contact
                 </p>
               </div>
 
-              <div className="flex flex-col xl:w-[800px] lg:w-[700px] md:w-96  xl:mb-4 lg:mb-4 md:mb-3 sm:mb-0 mb-1">
+              <div className="flex flex-col xl:w-[800px] lg:w-[700px] md:w-96 animate__animated animate__bounceInLeft xl:mb-4 lg:mb-4 md:mb-3 sm:mb-0 mb-1">
                 <label htmlFor="name" className="text-white">
                   Name
                 </label>
@@ -107,7 +107,8 @@ function Contact() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="text-white bg-green-500 hover:bg-green-700 hover:duration-300 font-w-full bold rounded-md px-2 py-2 animate-fadeIn"
+                className="text-white bg-green-500 hover:bg-green-700 hover:duration-300
+                 font-w-full bold rounded-md px-2 py-2 animate__animated animate__bounceInLeft"
               >
                 Send Message
               </button>

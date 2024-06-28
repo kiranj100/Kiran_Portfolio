@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser"; // Updated import for emailjs
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
@@ -17,33 +17,30 @@ const validationSchema = yup.object().shape({
 function Contact() {
   const formRef = useRef();
 
-  const serviceID = process.env.SERVICE_ID;
-  const templateID = process.env.TEMPLATE_KEY;
-  const publicID = process.env.PUBLIC_KEY;
-
   // Function to send email using EmailJS
   const sendEmail = (values, { resetForm }) => {
-    emailjs
-      .sendForm(`${serviceID}`, `${templateID}`, formRef.current, `${publicID}`)
-      .then(
-        () => {
-          toast.success("Message Sent Successfully 😊");
-          resetForm();
-        },
-        (error) => {
-          toast.error("Message Not Sent 🥲");
-        }
-      );
+    const serviceID = process.env.REACT_APP_SERVICE_ID;
+    const templateID = process.env.REACT_APP_TEMPLATE_KEY;
+    const publicID = process.env.REACT_APP_PUBLIC_KEY;
+
+    emailjs.sendForm(serviceID, templateID, formRef.current, publicID).then(
+      () => {
+        toast.success("Message Sent Successfully 😊");
+        resetForm();
+      },
+      (error) => {
+        toast.error("Message Not Sent 🥲");
+      }
+    );
   };
 
   return (
     <div className="flex items-center justify-center w-full animate-fadeIn delay-300 duration-300">
-      <div className=" mx-auto place-content-center ">
+      <div className="mx-auto place-content-center">
         <Formik
           initialValues={{ name: "", email: "", message: "" }}
           validationSchema={validationSchema}
           onSubmit={sendEmail}
-          className=" delay-1000 duration-500"
         >
           {({ isSubmitting }) => (
             <Form ref={formRef}>
@@ -58,7 +55,7 @@ function Contact() {
                   Name
                 </label>
                 <Field
-                  className="rounded-md py-2 px-3 text-black "
+                  className="rounded-md py-2 px-3 text-black"
                   type="text"
                   name="name"
                   placeholder="Enter Your Name"
@@ -70,11 +67,11 @@ function Contact() {
                   className="text-red-500"
                 />
 
-                <label htmlFor="email" className="text-white ">
+                <label htmlFor="email" className="text-white">
                   Email
                 </label>
                 <Field
-                  className="rounded-md py-2 px-3 text-black "
+                  className="rounded-md py-2 px-3 text-black"
                   type="email"
                   name="email"
                   placeholder="Enter Your Email"
@@ -90,7 +87,7 @@ function Contact() {
                   Message
                 </label>
                 <Field
-                  className=" w-full py-2 rounded-md text-black px-3 "
+                  className="w-full py-2 rounded-md text-black px-3"
                   name="message"
                   type="text"
                   component="textarea"
@@ -106,8 +103,7 @@ function Contact() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="text-white bg-green-500 hover:bg-green-700 hover:duration-300
-                 font-w-full bold rounded-md px-2 py-2 animate__animated animate__bounceInLeft"
+                className="text-white bg-green-500 hover:bg-green-700 hover:duration-300 font-bold rounded-md px-2 py-2 animate__animated animate__bounceInLeft"
               >
                 Send Message
               </button>

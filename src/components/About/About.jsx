@@ -14,6 +14,11 @@ import sass from "../../assets/sass.svg";
 import responsive from "../../assets/responsive.svg";
 import mysql from "../../assets/mysql.svg";
 import react_1 from "../../assets/react_1.svg";
+import Java from "../../assets/Java.svg";
+import npm from "../../assets/npm.svg";
+import Postman from "../../assets/Postman.svg";
+import PyCharm from "../../assets/PyCharm.svg";
+
 import "animate.css";
 
 function About() {
@@ -27,7 +32,7 @@ function About() {
       </h1>
       <div>
         <div
-          className=" grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 
+          className=" grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-5 
         sm:gap-0 gap-2 md:gap-6 lg:gap-6 xl:gap-8 font-bold sm:text-2xl text-md  md:text-xl lg:text-xl bg-"
         >
           <div className="flex flex-col items-center ">
@@ -101,9 +106,29 @@ function About() {
           </div>
 
           <div className="flex flex-col items-center ">
+            <span>Java</span>
+            <img
+              src={Java}
+              alt="NodeJs"
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              animate__animated animate__flip "
+            />
+          </div>
+
+          <div className="flex flex-col items-center ">
             <span>Python</span>
             <img
               src={python}
+              alt="Python"
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              animate__animated animate__flip "
+            />
+          </div>
+
+          <div className="flex flex-col items-center ">
+            <span>PyCham</span>
+            <img
+              src={PyCharm}
               alt="Python"
               className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
@@ -151,6 +176,16 @@ function About() {
           </div>
 
           <div className="flex flex-col items-center ">
+            <span>NPM</span>
+            <img
+              src={npm}
+              alt="NodeJs"
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              animate__animated animate__flip "
+            />
+          </div>
+
+          <div className="flex flex-col items-center ">
             <span>MongoDB</span>
             <img
               src={mongodb}
@@ -175,6 +210,16 @@ function About() {
             <img
               src={sass}
               alt="SCSS"
+              className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
+              animate__animated animate__flip "
+            />
+          </div>
+
+          <div className="flex flex-col items-center ">
+            <span>Postman</span>
+            <img
+              src={Postman}
+              alt="NodeJs"
               className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
               animate__animated animate__flip "
             />

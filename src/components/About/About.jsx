@@ -23,7 +23,10 @@ import "animate.css";
 
 function About() {
   return (
-    <main className="mx-auto w-full flex flex-col item-center justify-center text-white animate-fadeIn">
+    <main
+      className="mx-auto w-full flex flex-col item-center justify-center
+     text-white animate-fadeIn bg-about bg-cover bg-center"
+    >
       <h1
         className="lg:text-4xl md:text-3xl sm:text-md text-2xl text-center 
       animate-fadeIn lg:mb-5 md:mb-5 sm:mb-1 mb-2 font-bold "
@@ -33,7 +36,8 @@ function About() {
       <div>
         <div
           className=" grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-5 
-        sm:gap-0 gap-2 md:gap-6 lg:gap-6 xl:gap-8 font-bold sm:text-2xl text-md  md:text-xl lg:text-xl bg-"
+        sm:gap-0 gap-2 md:gap-6 lg:gap-6 xl:gap-8 font-bold sm:text-2xl text-md  
+        md:text-xl lg:text-xl drop-shadow-xl"
         >
           <div className="flex flex-col items-center group">
             <span>HTML</span>

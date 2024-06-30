@@ -21,7 +21,10 @@ function NavBar() {
       {/* desktop menu */}
 
       <nav>
-        <div className="hidden md:flex justify-around font-bold items-center h-20 w-full shadow-gray-700 shadow-sm  bg-slate-800 list-none">
+        <div
+          className="hidden md:flex justify-around font-bold items-center h-20 w-full
+         shadow-gray-700 shadow-sm  bg-transparent list-none"
+        >
           <p className="text-3xl lg:text-4xl text-white">Kiran</p>
           <ul className="inline-flex gap-8  cursor-pointer lg:text-xl ">
             <li>

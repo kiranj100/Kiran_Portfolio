@@ -19,11 +19,11 @@ function Layout() {
 
   return (
     <>
-      <div className="bg-black animate-fadeIn">
+      <div className=" animate-fadeIn">
         {isLoading ? (
           <SpinnerLoader />
         ) : (
-          <div className="flex flex-col min-h-screen bg-gray-900 text-white">
+          <div className="flex flex-col min-h-screen text-white">
             <header>
               <nav>
                 <NavBar />
@@ -33,7 +33,7 @@ function Layout() {
               <Outlet />
               <ToastContainer />
             </main>
-            <footer className="bg-slate-800 h-28 w-full">
+            <footer className=" h-20 w-full">
               <Footer />
             </footer>
           </div>

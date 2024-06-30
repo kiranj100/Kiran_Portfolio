@@ -35,7 +35,10 @@ function Contact() {
   };
 
   return (
-    <div className="flex items-center justify-center w-full animate-fadeIn delay-300 duration-300">
+    <div
+      className="flex items-center justify-center w-full 
+     animate-fadeIn delay-300 duration-300 bg-contact bg-cover bg-center"
+    >
       <div className="mx-auto place-content-center">
         <Formik
           initialValues={{ name: "", email: "", message: "" }}

@@ -10,7 +10,7 @@ export default {
       },
 
       animation: {
-        fadeIn: "fadeIn 0.8s ease-in forwards",
+        fadeIn: "fadeIn 0.4s ease-in-out forwards",
       },
       keyframes: {
         fadeIn: {

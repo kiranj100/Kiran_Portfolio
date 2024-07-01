@@ -16,14 +16,6 @@ function Footer() {
         </a>
 
         <a
-          className="text-white hover:text-orange-500 duration-500  animate-fadeIn "
-          href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpdLgKlnpXLPSpPXxGdgZPgjNwzqmLFPZvqbTtLTlcfFlQXFTbsfrNVSDXMJsVbnZCSdcl"
-          target="_blank"
-        >
-          <SiGmail />
-        </a>
-
-        <a
           className="text-white hover:text-orange-500 duration-500 animate-fadeIn "
           href="https://www.linkedin.com/in/kiran-jojan/"
           target="_blank"

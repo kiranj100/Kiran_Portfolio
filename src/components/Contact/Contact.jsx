@@ -35,85 +35,90 @@ function Contact() {
   };
 
   return (
-    <div
-      className="flex items-center justify-center w-full 
-     animate-fadeIn delay-300 duration-300 bg-contact bg-cover bg-center"
-    >
-      <div className="mx-auto place-content-center">
-        <Formik
-          initialValues={{ name: "", email: "", message: "" }}
-          validationSchema={validationSchema}
-          onSubmit={sendEmail}
-        >
-          {({ isSubmitting }) => (
-            <Form ref={formRef}>
-              <div className="animate__animated animate__bounceInLeft">
-                <p className="w-full text-3xl font-bold text-white text-center">
-                  Contact
-                </p>
-              </div>
-
-              <div className="flex flex-col xl:w-[800px] lg:w-[700px] md:w-96 animate__animated animate__bounceInLeft xl:mb-4 lg:mb-4 md:mb-3 sm:mb-0 mb-1">
-                <label htmlFor="name" className="text-white">
-                  Name
-                </label>
+    <div className="h-auto w-full flex bg-contact bg-cover bg-no-repeat animate-fadeIn">
+      <Formik
+        initialValues={{ name: "", email: "", message: "" }}
+        validationSchema={validationSchema}
+        onSubmit={sendEmail}
+        className=" flex justify-center 
+       items-center w-full animate-fadeIn "
+      >
+        {({ isSubmitting }) => (
+          <Form
+            ref={formRef}
+            className="flex flex-col my-auto w-full items-center animate__animated animate__zoomIn"
+          >
+            <div
+              className="max-w-3xl w-full justify-center flex flex-col h-full 
+              xl:gap-5 lg:gap-4 md:gap-4 sm:gap-0 gap-3 tracking-wider"
+            >
+              <label htmlFor="name" className="text-white flex flex-col">
+                Name*
                 <Field
-                  className="rounded-md py-2 px-3 text-black"
+                  className="rounded-md py-3  text-black bg-slate-200 
+                    hover:ring-2 hover:ring-blue-400 px-3"
                   type="text"
+                  id="name"
                   name="name"
-                  placeholder="Enter Your Name"
-                  autoComplete="name"
+                  placeholder="Enter Name"
+                  autoComplete="true"
                 />
                 <ErrorMessage
                   name="name"
                   component="div"
-                  className="text-red-500"
+                  className="text-red-500 "
                 />
+              </label>
 
-                <label htmlFor="email" className="text-white">
-                  Email
-                </label>
+              <label htmlFor="email" className="text-white flex flex-col">
+                Email*
                 <Field
-                  className="rounded-md py-2 px-3 text-black"
+                  className="rounded-md py-3 px-3 text-black bg-slate-200  "
                   type="email"
+                  id="email"
                   name="email"
-                  placeholder="Enter Your Email"
-                  autoComplete="email"
+                  placeholder="Enter Email"
+                  autoComplete="true"
                 />
                 <ErrorMessage
                   name="email"
                   component="div"
                   className="text-red-500"
-                />
+                />{" "}
+              </label>
 
-                <label htmlFor="message" className="text-white">
-                  Message
-                </label>
+              <label htmlFor="message" className="text-white flex flex-col">
+                Message*
                 <Field
-                  className="w-full py-2 rounded-md text-black px-3"
+                  className=" w-full py-2 px-3 rounded-md text-black bg-slate-200"
                   name="message"
                   type="text"
                   component="textarea"
-                  rows="5"
-                  placeholder="Enter Your Message"
+                  id="message"
+                  autoComplete="true"
+                  placeholder="Enter Message"
+                  rows="6"
                 />
                 <ErrorMessage
                   name="message"
                   component="div"
-                  className="text-red-500 top-0"
+                  className="text-red-500 "
                 />
-              </div>
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="text-white bg-green-500 hover:bg-green-700 hover:duration-300 font-bold rounded-md px-2 py-2 animate__animated animate__bounceInLeft"
-              >
-                Send Message
-              </button>
-            </Form>
-          )}
-        </Formik>
-      </div>
+              </label>
+            </div>
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="text-black bg-slate-200 hover:bg-gray-400 hover:font-semibold tracking-wider
+                hover:duration-300 font- bold rounded-md px-5 py-2 
+                xl:mt-5 lg:mt-5 md:mt-5 sm:mt-0 mt-2
+                "
+            >
+              Send Message
+            </button>
+          </Form>
+        )}
+      </Formik>
     </div>
   );
 }

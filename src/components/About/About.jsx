@@ -45,7 +45,7 @@ function About() {
               src={html5}
               alt="HTML"
               className="bg-white border-none ring-1 rounded-md sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
-              animate__animated animate__flip  group-hover:"
+              animate__animated animate__flip  "
             />
           </div>
 
@@ -55,7 +55,7 @@ function About() {
               src={css}
               alt="CSS"
               className="bg-white border-none ring-1 rounded-md hover:ring-white sm:h-0 sm:w-0 h-12 w-12 md:h-16 md:w-16 lg:w-16 lg:h-16 xl:w-24 xl:h-24 
-              animate__animated animate__flip "
+              animate__animated animate__flip"
             />
           </div>
 

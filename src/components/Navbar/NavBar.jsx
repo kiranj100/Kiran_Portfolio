@@ -2,7 +2,6 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { RiMenuFoldFill, RiMenuFold2Fill } from "react-icons/ri";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
 function NavBar() {
   const isActive = false;
   const [open, setOpen] = useState(false);
@@ -25,7 +24,11 @@ function NavBar() {
           className="hidden md:flex justify-around font-bold items-center h-20 w-full
          shadow-gray-700 shadow-sm  bg-transparent list-none"
         >
-          <p className="text-3xl lg:text-4xl text-white">Kiran</p>
+          <NavLink to="/">
+            <p className=" text-white text-3xl font-bold  hover:text-orange-600 ">
+              Kiran
+            </p>
+          </NavLink>
           <ul className="inline-flex gap-8  cursor-pointer lg:text-xl ">
             <li>
               <NavLink

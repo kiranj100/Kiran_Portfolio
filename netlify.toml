@@ -1,0 +1,8 @@
+[build]
+  publish = "build"  # The directory where your build output is located
+  command = "npm run build"  # The command to build your project
+
+[[redirects]]
+  from = "/*"  # Redirect all routes
+  to = "/index.html"  # Send them to index.html (for single-page apps)
+  status = 200  # Use status code 200

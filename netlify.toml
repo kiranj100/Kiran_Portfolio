@@ -1,6 +1,4 @@
-[build]
-  publish = "build"  # The directory where your build output is located
-  command = "npm run build"  # The command to build your project
+
 
 [[redirects]]
   from = "/*"  # Redirect all routes

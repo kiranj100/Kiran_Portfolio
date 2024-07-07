@@ -90,7 +90,8 @@ function Contact() {
               <label htmlFor="message" className="text-white flex flex-col">
                 Message*
                 <Field
-                  className=" w-full py-2 px-3 rounded-md text-black bg-slate-200"
+                  className=" w-full py-2 px-3 rounded-md text-black
+                   bg-slate-200"
                   name="message"
                   type="text"
                   component="textarea"
@@ -109,7 +110,7 @@ function Contact() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="text-black bg-slate-200 hover:bg-gray-400 hover:font-semibold tracking-wider
+              className="text-black bg-slate-200 hover:bg-orange-400 hover:font-bold tracking-wider 
                 hover:duration-300 font- bold rounded-md px-5 py-2 
                 xl:mt-5 lg:mt-5 md:mt-5 sm:mt-0 mt-2
                 "

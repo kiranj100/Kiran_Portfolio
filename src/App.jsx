@@ -12,6 +12,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 
 import "./app.css";
+import PageNotFound from "./components/404/PageNotFound";
 
 function App() {
   const router = createBrowserRouter(
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         {/* <Route path="/project" element={<Project />} /> */}
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<PageNotFound />} />
       </Route>
     )
   );

@@ -100,7 +100,7 @@ function NavBar() {
           z-50 h-20 shadow-gray-600 shadow-sm w-full text-white"
           >
             <span onClick={togglemenu} className="text-3xl mr-5 cursor-pointer">
-              {!open ? <RiMenuFoldFill /> : <RiMenuFold2Fill />}
+              {!open ? <RiMenuFold2Fill /> : <RiMenuFoldFill />}
             </span>
           </div>
 

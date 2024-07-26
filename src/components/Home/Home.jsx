@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 
 function Home() {
+  const resume =
+    "https://drive.google.com/uc?export=download&id=1lhhKp11iBQUlkDHucQ5kex9am-PjJaLG";
   return (
     <>
       <main className="w-full flex flex-wrap animate-fadeIn bg-home bg-cover bg-center ">
@@ -29,7 +31,7 @@ function Home() {
             </p>
             <button className=" mt-2 animate__animated animate__fadeInDown">
               <Link
-                to="https://drive.google.com/uc?export=download&id=1EYDO-CCZJ-8nacljR8lBB3Noyr5PVUNw"
+                to={resume}
                 target="_blank"
                 className=" text-xl text-center px-8 py-2 duration-200 max-w-none animate-pulse
                  hover:text-white ring-2  hover:ring-blue-300 

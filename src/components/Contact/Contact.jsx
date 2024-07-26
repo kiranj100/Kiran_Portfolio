@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import emailjs from "@emailjs/browser"; // Updated import for emailjs
+import emailjs from "@emailjs/browser"; 
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";

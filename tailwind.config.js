@@ -7,6 +7,7 @@ export default {
         home: "url('/src/assets/HomeBg.jpg')",
         about: "url('/src/assets/about.jpg')",
         contact: "url('/src/assets/contact.jpg')",
+        project: "url('/src/assets/project.jpg')",
       },
 
       animation: {

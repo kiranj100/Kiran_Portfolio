@@ -33,7 +33,10 @@ function Project() {
     },
   ];
   return (
-    <div className="py-10 w-full flex flex-col gap-8 ">
+    <div
+      className="py-10 w-full flex flex-col gap-8 bg-project bg-cover
+    bg-center bg-no-repeat"
+    >
       <h1
         className="text-center sm:text-3xl font-bold
        text-2xl"
@@ -48,7 +51,7 @@ function Project() {
         {projects_name.map((project) => (
           <div
             key={project.id}
-            className="bg-slate-700 ring-2 h-72 sm:w-64 w-80 rounded-lg 
+            className="bg-slate-700 ring-2 h-72 sm:w-72 w-80 rounded-lg 
             shadow-xl text-center py-4 font-bold tracking-widest"
           >
             {project.name === "Coming Soon" ? (

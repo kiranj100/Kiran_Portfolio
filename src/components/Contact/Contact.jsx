@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import emailjs from "@emailjs/browser"; 
+import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
@@ -50,7 +50,8 @@ function Contact() {
           >
             <div
               className="max-w-3xl w-full justify-center flex flex-col h-full 
-              xl:gap-5 lg:gap-4 md:gap-4 sm:gap-0 gap-3 tracking-wider"
+              xl:gap-5 lg:gap-4 md:gap-4 sm:gap-0 gap-3 tracking-wider md:px-7 
+              sm:px-0 px-4"
             >
               <label htmlFor="name" className="text-white flex flex-col">
                 Name*

@@ -8,7 +8,7 @@ import {
 
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-// import Project from "./components/Projects/Project";
+import Project from "./components/Projects/Project";
 import Contact from "./components/Contact/Contact";
 
 import "./app.css";
@@ -20,7 +20,7 @@ function App() {
       <Route path="" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/project" element={<Project />} /> */}
+        <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>

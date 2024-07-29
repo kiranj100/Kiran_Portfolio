@@ -21,14 +21,9 @@ function NavBar() {
 
       <nav>
         <div
-          className="hidden md:flex justify-around font-bold items-center h-20 w-full
-         shadow-gray-700 shadow-sm  bg-transparent list-none"
+          className="hidden md:flex justify-end font-bold items-center h-20 w-full
+         shadow-gray-700 shadow-sm  bg-transparent list-none px-16"
         >
-          <NavLink to="/">
-            <p className=" text-white text-3xl font-bold  hover:text-orange-600 ">
-              Kiran
-            </p>
-          </NavLink>
           <ul className="inline-flex gap-8  cursor-pointer lg:text-xl ">
             <li>
               <NavLink
@@ -59,7 +54,7 @@ function NavBar() {
               </NavLink>
             </li>
 
-            {/* <li>
+            <li>
               <NavLink
                 className={({ isActive }) => `
                   ${
@@ -72,7 +67,7 @@ function NavBar() {
               >
                 Projects
               </NavLink>
-            </li> */}
+            </li>
 
             <li>
               <NavLink
@@ -141,7 +136,7 @@ function NavBar() {
                 </NavLink>
               </li>
 
-              {/* <li>
+              <li>
                 <NavLink
                   onClick={togglemenu}
                   className={({ isActive }) => `
@@ -155,7 +150,7 @@ function NavBar() {
                 >
                   Projects
                 </NavLink>
-              </li> */}
+              </li>
 
               <li>
                 <NavLink

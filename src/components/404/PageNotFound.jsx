@@ -1,16 +1,11 @@
-import React from "react";
-
-function PageNotFound() {
+export default function PageNotFound() {
   return (
-    <>
-      <div
-        className="flex justify-center items-center 
-        w-screen text-center flex-wrap text-6xl font-extrabold"
-      >
-        <h1>Page Not Found</h1>
-      </div>
-    </>
+    <div
+      className=" w-full my-auto flex items-center 
+    justify-center text-red-500 tracking-widest 
+    text-4xl font-bold "
+    >
+      <h1>Page Not Found</h1>
+    </div>
   );
 }
-
-export default PageNotFound;

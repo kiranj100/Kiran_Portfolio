@@ -19,6 +19,14 @@ function Project() {
       linklive: "https://your-bmi-calculator.vercel.app",
     },
     {
+      id: 3,
+      name: "Input Color Change",
+      desc: "In Input box write a color name and the other box change the color ",
+      linkgit:
+        "https://github.com/kiranj100/React_Project/tree/master/InputColor%20Change",
+      linklive: "https://input-color-change.vercel.app/",
+    },
+    {
       id: 4,
       name: "Color Change",
       desc: "Simple and beginner Friendly. Change Color and Have Fun",
@@ -26,8 +34,9 @@ function Project() {
         "https://github.com/kiranj100/React_Project/tree/master/BackgroundChangeColor",
       linklive: "https://backchanger.vercel.app",
     },
+
     {
-      id: 3,
+      id: 5,
       name: "Coming Soon",
       desc: "",
     },

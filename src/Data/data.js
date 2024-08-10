@@ -1,102 +1,123 @@
+import html5 from "../assets/html5.svg";
+import css from "../assets/css.svg";
+import javascript from "../assets/javascript.svg";
+import jira from "../assets/jira.svg";
+import tailwind from "../assets/tailwind.svg";
+import git from "../assets/git.svg";
+import github from "../assets/github.svg";
+import mongodb from "../assets/mongodb.svg";
+import nodejs from "../assets/nodejs.svg";
+import python from "../assets/python.svg";
+import vsCode from "../assets/vs.svg";
+import ubuntu from "../assets/ubuntu.svg";
+import scss from "../assets/sass.svg";
+import responsive from "../assets/responsive.svg";
+import mysql from "../assets/mysql.svg";
+import react from "../assets/react_1.svg";
+import java from "../assets/Java.svg";
+import npm from "../assets/npm.svg";
+import postman from "../assets/Postman.svg";
+import pyCharm from "../assets/PyCharm.svg";
+
 export const skillsData = [
   {
     id: 1,
     title: "HTML",
-    images: "../assets/html5.svg",
+    images: html5,
   },
   {
     id: 2,
     title: "CSS",
-    images: "src/assets/css.svg",
+    images: css,
   },
   {
     id: 3,
     title: "JavaScript",
-    images: "src/assets/javascript.svg",
+    images: javascript,
   },
   {
     id: 4,
     title: "Jira",
-    images: "src/assets/jira.svg",
+    images: jira,
   },
   {
     id: 5,
     title: "Tailwind CSS",
-    images: "src/assets/tailwind.svg",
+    images: tailwind,
   },
   {
     id: 6,
     title: "Git",
-    images: "src/assets/git.svg",
+    images: git,
   },
   {
     id: 7,
     title: "GitHub",
-    images: "src/assets/github.svg",
+    images: github,
   },
   {
     id: 8,
     title: "MongoDB",
-    images: "src/assets/mongodb.svg",
+    images: mongodb,
   },
   {
     id: 9,
     title: "NodeJS",
-    images: "src/assets/nodejs.svg",
+    images: nodejs,
   },
   {
     id: 10,
     title: "Python",
-    images: "src/assets/python.svg",
+    images: python,
   },
   {
     id: 11,
     title: "VS Code",
-    images: "src/assets/vs.svg",
+    images: vsCode,
   },
   {
     id: 12,
     title: "Ubuntu",
-    images: "src/assets/ubuntu.svg",
+    images: ubuntu,
   },
   {
     id: 13,
     title: "SCSS",
-    images: "src/assets/sass.svg",
+    images: scss,
   },
   {
     id: 14,
     title: "Responsive",
-    images: "src/assets/responsive.svg",
+    images: responsive,
   },
   {
     id: 15,
     title: "MYSQL",
-    images: "src/assets/mysql.svg",
+    images: mysql,
   },
   {
     id: 16,
     title: "React JS",
-    images: "src/assets/react_1.svg",
+    images: react,
   },
   {
     id: 17,
     title: "Java",
-    images: "src/assets/Java.svg",
+    images: java,
   },
   {
     id: 18,
     title: "NPM",
-    images: "src/assets/npm.svg",
+    images: npm,
   },
   {
     id: 19,
     title: "Postman",
-    images: "src/assets/Postman.svg",
+    images: postman,
   },
   {
     id: 20,
     title: "PyCharm",
-    images: "src/assets/PyCharm.svg",
+    images: pyCharm,
   },
 ];

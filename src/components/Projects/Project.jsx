@@ -42,33 +42,17 @@ function Project() {
     },
   ];
   return (
-    <div
-      className="py-10 w-full flex flex-col gap-8 bg-project bg-cover
-    bg-center bg-no-repeat"
-    >
-      <h1
-        className="text-center sm:text-3xl font-bold
-       text-2xl"
-      >
-        Projects
-      </h1>
-      <div
-        className="grid sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3  
-        xl:grid-cols-3 grid-cols-1 justify-items-center sm:gap-12 gap-8 
-        md:mx-auto lg:mx-auto sm:mx-0 mx-auto xl:mx-0"
-      >
+    <div className="flex flex-col w-full gap-8 py-10 bg-center bg-no-repeat bg-cover bg-project">
+      <h1 className="text-2xl font-bold text-center sm:text-3xl">Projects</h1>
+      <div className="grid grid-cols-1 gap-8 mx-auto sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-items-center sm:gap-12 md:mx-auto lg:mx-auto sm:mx-0 xl:mx-0">
         {projects_name.map((project) => (
           <div
             key={project.id}
-            className="bg-slate-700 ring-2 h-72 sm:w-72 w-80 rounded-lg 
-            shadow-xl text-center py-4 font-bold tracking-widest"
+            className="py-4 font-bold tracking-widest text-center rounded-lg shadow-xl bg-slate-700 ring-2 h-72 sm:w-72 w-80 animate__animated animate__bounceInLeft "
           >
             {project.name === "Coming Soon" ? (
-              <div
-                className="text-center flex flex-col items-center 
-                justify-center h-full"
-              >
-                <h1 className="font-bold text-xl text-white tracking-widest">
+              <div className="flex flex-col items-center justify-center h-full text-center">
+                <h1 className="text-xl font-bold tracking-widest text-white">
                   Coming <br />
                   Soon
                 </h1>
@@ -89,9 +73,9 @@ function Project() {
               <div className="flex flex-col gap-5 ">
                 <div className="flex flex-col gap-8 ">
                   <h1 className="text-2xl tracking-wider">{project.name}</h1>
-                  <p className=" px-4  ">{project.desc}</p>
+                  <p className="px-4 ">{project.desc}</p>
                 </div>
-                <div className="flex flex-1 justify-around ">
+                <div className="flex justify-around flex-1 ">
                   <a
                     href={project.linklive}
                     target="_blank"
@@ -99,7 +83,7 @@ function Project() {
                   >
                     <span className="text-lg">Live</span>
 
-                    <MdLiveTv className="ring-1 text-3xl hover:text-orange-400 " />
+                    <MdLiveTv className="text-3xl ring-1 hover:text-orange-400 " />
                   </a>
                   <a
                     href={project.linkgit}
@@ -108,7 +92,7 @@ function Project() {
                   >
                     <span className="text-lg">GitHub</span>
 
-                    <FaGithub className="ring-1 text-3xl hover:text-orange-400" />
+                    <FaGithub className="text-3xl ring-1 hover:text-orange-400" />
                   </a>
                 </div>
               </div>

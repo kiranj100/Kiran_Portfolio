@@ -20,11 +20,8 @@ function NavBar() {
       {/* desktop menu */}
 
       <nav>
-        <div
-          className="hidden md:flex justify-end font-bold items-center h-20 w-full
-         shadow-gray-700 shadow-sm  bg-transparent list-none px-16"
-        >
-          <ul className="inline-flex gap-8  cursor-pointer lg:text-xl ">
+        <div className="items-center justify-end hidden w-full h-20 px-16 font-bold list-none bg-transparent shadow-sm md:flex shadow-gray-700">
+          <ul className="inline-flex gap-8 cursor-pointer lg:text-xl ">
             <li>
               <NavLink
                 className={({ isActive }) => `
@@ -50,7 +47,7 @@ function NavBar() {
                 `}
                 to="/about"
               >
-                About
+                Skill
               </NavLink>
             </li>
 
@@ -89,12 +86,9 @@ function NavBar() {
         {/*-----------------------------------------------------------------------------------------------------------------------------*/}
 
         {/* mobile nav bar */}
-        <div className="md:hidden bg-slate-800 list-none font-bold ">
-          <div
-            className="relative flex flex-col items-end justify-center
-          z-50 h-20 shadow-gray-600 shadow-sm w-full text-white"
-          >
-            <span onClick={togglemenu} className="text-3xl mr-5 cursor-pointer">
+        <div className="font-bold list-none md:hidden bg-slate-800 ">
+          <div className="relative z-50 flex flex-col items-end justify-center w-full h-20 text-white shadow-sm shadow-gray-600">
+            <span onClick={togglemenu} className="mr-5 text-3xl cursor-pointer">
               {!open ? <RiMenuFold2Fill /> : <RiMenuFoldFill />}
             </span>
           </div>
@@ -103,7 +97,7 @@ function NavBar() {
             className={`${open ? "block" : "hidden"} 
           fixed top-0 left-0 h-screen w-full bg-slate-800 z-40`}
           >
-            <ul className="flex flex-col justify-center h-full items-center gap-16">
+            <ul className="flex flex-col items-center justify-center h-full gap-16">
               <li>
                 <NavLink
                   onClick={togglemenu}
@@ -132,7 +126,7 @@ function NavBar() {
               `}
                   to="/about"
                 >
-                  About
+                  Skill
                 </NavLink>
               </li>
 

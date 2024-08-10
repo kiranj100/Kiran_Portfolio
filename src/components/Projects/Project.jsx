@@ -48,7 +48,7 @@ function Project() {
         {projects_name.map((project) => (
           <div
             key={project.id}
-            className="py-4 font-bold tracking-widest text-center rounded-lg shadow-xl bg-slate-700 ring-2 h-72 sm:w-72 w-80 animate__animated animate__bounceInLeft "
+            className="py-4 font-bold tracking-widest text-center rounded-lg shadow-xl bg-slate-700 ring-2 h-72 sm:w-72 w-80 animate__animated animate__zoomIn "
           >
             {project.name === "Coming Soon" ? (
               <div className="flex flex-col items-center justify-center h-full text-center">

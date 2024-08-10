@@ -83,7 +83,7 @@ function Project() {
                   >
                     <span className="text-lg">Live</span>
 
-                    <MdLiveTv className="text-3xl ring-1 hover:text-orange-400 " />
+                    <MdLiveTv className="text-3xl hover:text-orange-400 " />
                   </a>
                   <a
                     href={project.linkgit}
@@ -92,7 +92,7 @@ function Project() {
                   >
                     <span className="text-lg">GitHub</span>
 
-                    <FaGithub className="text-3xl ring-1 hover:text-orange-400" />
+                    <FaGithub className="text-3xl hover:text-orange-400" />
                   </a>
                 </div>
               </div>

@@ -2,7 +2,7 @@ export const skillsData = [
   {
     id: 1,
     title: "HTML",
-    images: "/assets/html5.svg",
+    images: "../assets/html5.svg",
   },
   {
     id: 2,

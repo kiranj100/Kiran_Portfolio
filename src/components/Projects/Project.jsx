@@ -12,13 +12,21 @@ function Project() {
     },
     {
       id: 2,
+      name: "Kiran-Movies",
+      desc: "in this project u can search variety of Movies and Trending Movies",
+      linkgit:
+        "https://github.com/kiranj100/React-Projects/tree/master/Movies_Project",
+      linklive: "https://kiran-movies.vercel.app/",
+    },
+    {
+      id: 3,
       name: "Fruit Store",
       desc: "Browse through a variety of fruits, Add fruits to your Favourite",
       linkgit: "https://github.com/kiranj100/Fruit-Store",
       linklive: "https://fruitstore48.vercel.app",
     },
     {
-      id: 3,
+      id: 4,
       name: "BMI Calcutor",
       desc: "Calculate your BMI and stay healthy, Health is a journey, not a destination.",
       linkgit:
@@ -26,7 +34,7 @@ function Project() {
       linklive: "https://your-bmi-calculator.vercel.app",
     },
     {
-      id: 4,
+      id: 5,
       name: "Input Color Change",
       desc: "In Input box write a color name and the other box change the color ",
       linkgit:
@@ -34,7 +42,7 @@ function Project() {
       linklive: "https://input-color-change.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       name: "Color Change",
       desc: "Simple and beginner Friendly. Change Color and Have Fun",
       linkgit:
@@ -43,7 +51,7 @@ function Project() {
     },
 
     {
-      id: 6,
+      id: 7,
       name: "Coming Soon",
       desc: "",
     },

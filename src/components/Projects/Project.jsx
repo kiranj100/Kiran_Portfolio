@@ -41,17 +41,9 @@ function Project() {
         "https://github.com/kiranj100/React_Project/tree/master/InputColor%20Change",
       linklive: "https://input-color-change.vercel.app/",
     },
-    {
-      id: 6,
-      name: "Color Change",
-      desc: "Simple and beginner Friendly. Change Color and Have Fun",
-      linkgit:
-        "https://github.com/kiranj100/React_Project/tree/master/BackgroundChangeColor",
-      linklive: "https://backchanger.vercel.app",
-    },
 
     {
-      id: 7,
+      id: 6,
       name: "Coming Soon",
       desc: "",
     },

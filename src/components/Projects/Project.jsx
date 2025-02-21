@@ -6,7 +6,7 @@ function Project() {
     {
       id: 1,
       name: "Kiran-Food-Stall",
-      desc: "in this project u can search variety of food as per your favorite ingredients list",
+      desc: "in this project u can search variety of recipes as per your favorite ingredients list",
       linkgit: "https://github.com/kiranj100/Kiran-Food-Stall",
       linklive: "https://kiran-food-stall.vercel.app/",
     },

@@ -3,20 +3,20 @@ import { ReactTyped } from "react-typed";
 
 function Home() {
   const resume =
-    "https://drive.google.com/uc?export=download&id=1lhhKp11iBQUlkDHucQ5kex9am-PjJaLG";
+    "https://drive.google.com/file/d/1G87XLmD6eMOp80qsXDDmZvHxxfc1yHXP/view?usp=drive_link";
   return (
     <>
-      <main className="w-full flex flex-wrap animate-fadeIn bg-home bg-cover bg-center ">
-        <div className="place-content-center mx-auto sm:text-left text-center ">
+      <main className="flex flex-wrap w-full bg-center bg-cover animate-fadeIn bg-home ">
+        <div className="mx-auto text-center place-content-center sm:text-left ">
           <div className="tracking-widest font-bold xl:leading-[3rem] lg:leading-10 md:leading-9 sm:leading-3 leading-5 gap-4">
-            <p className="text-3xl  animate__animated animate__fadeInDown">
+            <p className="text-3xl animate__animated animate__fadeInDown">
               Hello,
             </p>
-            <p className="text-5xl  animate__animated animate__fadeInDown ">
+            <p className="text-5xl animate__animated animate__fadeInDown ">
               I Am Kiran Jojan
             </p>
             <ReactTyped
-              className="text-3xl   animate__animated animate__fadeInDown"
+              className="text-3xl animate__animated animate__fadeInDown"
               strings={[
                 "Frontend Developer",
                 "Backend Developer",
@@ -29,13 +29,11 @@ function Home() {
             <p className="text-xl animate__animated animate__fadeInDown">
               I Look forward to working with You.
             </p>
-            <button className=" mt-2 animate__animated animate__fadeInDown">
+            <button className="mt-2 animate__animated animate__fadeInDown">
               <Link
                 to={resume}
                 target="_blank"
-                className=" text-xl text-center px-8 py-2 duration-200 max-w-none animate-pulse
-                 hover:text-white ring-2  hover:ring-blue-300 
-               rounded-xl font-extrabold bg-gradient-to-r from-indigo-600 to-blue-400 "
+                className="px-8 py-2 text-xl font-extrabold text-center duration-200 max-w-none animate-pulse hover:text-white ring-2 hover:ring-blue-300 rounded-xl bg-gradient-to-r from-indigo-600 to-blue-400"
               >
                 Resume
               </Link>

@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 function Home() {
   const resume =
-    "https://drive.google.com/file/d/1G87XLmD6eMOp80qsXDDmZvHxxfc1yHXP/view?usp=drive_link";
+    "https://drive.google.com/file/d/1bEBBPXMOIOSXz25S1WMnl6-xNoQzXbDj/view?usp=drive_link";
   return (
     <>
       <main className="flex flex-wrap w-full bg-center bg-cover animate-fadeIn bg-home ">
